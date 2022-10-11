@@ -3,7 +3,7 @@ This is an example mod for PAYDAY 2 SuperBLT that does nothing by itself. Instea
 
 # Setup
 Download or clone this repo. Copy the entire .github folder to your own project's root folder, and modify the sample meta.json and releases.yml as you see fit.
-For the simplest configuration, simply change `SampleMod` in release.yml to point to your mod's root folder, and change `pd2autoupdatexample.zip` to a more personal zip name that will be used for your mod's zip files.
+For the simplest configuration, simply change `SampleMod` in release.yml to point to your mod's root folder, change `pd2autoupdatexample.zip` to a more personal zip name that will be used for your mod's zip files, and replace all instances of `master` in meta.json, releases.yml, and mod.txt with the name of the branch you're using.
 Don't forget to change the `ident` field in meta.json to your own mod's ID!
 
 This template needs your mod's main folder to be *under* your repository's root. If your mod.txt file is inside the root of the repository, it won't be included in the zipped-up mod, so move the mod into a child folder.
